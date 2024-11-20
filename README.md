@@ -6,26 +6,27 @@ This project is a basic blockchain implementation with a Flask-powered API, allo
 
 ## Features
 
-1. Blockchain Core:
+1. **Blockchain Core**:
 
 - Implements essential blockchain concepts: blocks, transactions, proof of work, and hashing.
 - Includes a genesis block as the starting point of the chain.
 
-2. Proof of Work:
+2. **Proof of Work**:
 
 - Utilizes a simple proof-of-work algorithm to secure the blockchain.
 - Requires the proof to generate a hash starting with four leading zeroes.
 
-3. Transactions:
+3. **Transactions**:
 
 - Allows users to create transactions by specifying sender, recipient, and amount.
 
-4. API Endpoints:
+4. **API Endpoints**:
 
 - `/mine`: Mines a new block using the proof-of-work algorithm and adds it to the chain.
 - `/transactions/new`: Accepts new transactions.
 - `/chain`: Returns the current state of the blockchain.
-5. Flask Framework:
+
+5. **Flask Framework**:
 
 - Provides RESTful endpoints for interaction.
 
